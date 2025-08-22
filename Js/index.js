@@ -192,7 +192,7 @@ console.log(ans)
 */
 
 // function calc_cart_price(...num) {
-    
+
 //     return num;
 // }
 
@@ -202,7 +202,7 @@ console.log(ans)
 //Scope
 
 // if (true){
-    
+
 //     const a = 5;//closed in if//local scope;
 //     let b = 5;//closed in if//local scope;
 //     var c = 5;//not closed in if//global scope;
@@ -220,19 +220,19 @@ console.log(ans)
 
 //
 
-    /*
-        //Type 1
-        const sum = (num1, num2)=>{
-            return num1+num2;
-        }
-        console.log(sum(5, 10));
-    */
+/*
+    //Type 1
+    const sum = (num1, num2)=>{
+        return num1+num2;
+    }
+    console.log(sum(5, 10));
+*/
 
-    /*
-        //Type 2
-        const sum = (num1,num2)=>(num1+num2);
-        console.log(sum(5, 10));
-    */ 
+/*
+    //Type 2
+    const sum = (num1,num2)=>(num1+num2);
+    console.log(sum(5, 10));
+*/
 
 //
 
@@ -272,4 +272,29 @@ console.log(ans)
 */
 
 
-//++++++++++++++++++++++++++++++++++++DOM++++++++++++++++++++++++++++++++++++++++++++
+// +++++++++++++++++++++DOM++++++++++++++++++++++++++
+
+/* Lec___14 */
+// document.getElementById("").👇
+// document.getElementsByClassName("").👇
+// document.querySelector("").👇
+// document.querySelectorAll("").👇
+// innerHTML
+// innerText
+// Style
+
+
+// to cover to array a HTML list or Node List
+// Array.from()
+
+// console.log("hi");
+
+//Inner html creating
+// for (let i = 0; i <= 5; i++) {
+//     let card = document.createElement("div")
+//     card.className = "box"
+//     document.body.appendChild(card)
+// }
+
+/* Lec___15*/
+

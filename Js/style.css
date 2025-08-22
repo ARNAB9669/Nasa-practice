@@ -1,0 +1,49 @@
+.card{
+    width: 600px;
+    height: 249px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+}
+.badam{
+    height: 83px;
+    background-color: rgb(242, 56, 23);
+}
+.white{
+    height: 83px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.green{
+    height: 83px;
+    background-color: green;
+}
+.circle{
+    border: 5px solid blue;
+    width: 80px;
+    height: 70px;
+    border-radius: 50%;
+}
+body{
+    background-color: black;
+    color: white;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+.box{
+
+    width: 30vw;
+    height: 50vh;
+    min-width: 300px;
+    min-height: 200px;
+    background-color: red;
+}
+.colors{
+    background-color: red;
+}

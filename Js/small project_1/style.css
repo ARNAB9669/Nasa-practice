@@ -1,0 +1,58 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+nav{
+    background-color: rgb(228, 228, 228);
+    display: flex;
+    padding: 15px;
+    justify-content: center;
+    gap: 20px;
+    border: 1px solid gray;
+}
+
+.nav_el{
+    border: 2px solid rgb(120, 120, 120);
+    padding: 10px;
+    width: 80px;
+    background-color: rgb(179, 179, 179);
+    text-align: center;
+
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    font-size: large;
+}
+.conatiner{
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.context{
+    width: 500px;
+    word-wrap: break-word;
+    text-align: center;
+}
+.color{
+    width: 100px;
+    height: 100px;
+}
+.gray{
+    background-color: rgb(135, 133, 133);
+}
+.white{
+    background-color: white;
+}
+.blue{
+    background-color: Blue;
+}
+.yellow{
+    background-color: yellow;
+    
+}
