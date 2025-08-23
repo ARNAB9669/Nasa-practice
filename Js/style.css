@@ -38,12 +38,25 @@ body{
 }
 .box{
 
-    width: 30vw;
-    height: 50vh;
+    width: 10vw;
+    height: 20vh;
     min-width: 300px;
     min-height: 200px;
     background-color: red;
+    text-align: center;
 }
 .colors{
     background-color: red;
+}
+.box {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: white;
+  border: 2px solid black;
+  padding: 20px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+  z-index: 1000;
+  color: red;
 }
