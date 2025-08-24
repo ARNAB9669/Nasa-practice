@@ -426,4 +426,33 @@ console.log(ans)
 // })
 
 
+// const promise = new Promise((resolve,reject)=>{
+//     setTimeout(() => {
+//         let error = true;
+//         if (!error){
+//             resolve({"name":Arnab,"age":16})
+//         }else{
+//             reject("ERROR: Something went wromg!")
+//         }
+//     }, 2000);
+// })
 
+// promise.then(()=>{
+
+// }).catch((err)=>{
+//     console.log(err)
+// })
+
+
+// const url = "https://randomuser.me/api/";
+
+// fetch(url)
+// .then((data)=>{
+//     console.log(data);
+// })
+
+/* Lec___18*/
+
+// +++++++++++++++++++++++++++++++++++++OOP+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+//--Collection of propreties and methods
