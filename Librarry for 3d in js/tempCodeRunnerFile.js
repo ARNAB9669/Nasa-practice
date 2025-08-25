@@ -1,0 +1,1 @@
+et cnt = parseInt(count)
